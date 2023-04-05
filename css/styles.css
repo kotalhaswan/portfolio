@@ -1,6 +1,6 @@
 p {
-    background-color: #82ffbc;
-    color: #4e86f5;
+    background-color: #c7c1fe;
+    color: #5b36d4;
     margin: 50px;
     padding: 25px;
     border-style: solid;
@@ -56,6 +56,7 @@ p {
     font: size 50em;
     color:white;
   }
+
 
 .topbar{
   background-color: #801fff;
@@ -121,7 +122,17 @@ p {
   color: white;
   }
 .profile-picture{
-  width: 100%;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-radius: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+ 
+}
+.robot-picture{
+  width: 60%;
 }
 
 input[type=text], select, textarea {
@@ -156,6 +167,60 @@ input[type=email], select, textarea {
   resize: vertical;
 }
 
+/*#region Skill bar*/
+#prog {
+  position: relative;
+}
+
+.skills {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.skill {
+  margin-top: 5px;
+  background-color: #5b1875;
+  border-radius: 10px;
+  color: white;
+}
+
+.skill-bg {
+  position: relative;
+  margin: 0;
+}
+
+.skill-bar {
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  padding: 4px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  animation: progressBar 2s ease-in-out;
+}
+
+.skill-title {
+  padding-left: 6px;
+}
+
+.skill-level {
+  padding-right: 6px;
+}
+
+@keyframes progressBar {
+  0% {
+    width: 30%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.category-title {
+  margin-bottom: 5px;
+}
 
 .container {
   color: #211b40;
