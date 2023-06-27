@@ -126,7 +126,7 @@ footer{
 }
 
 a:link, a:visited {
-  color: white;
+  color: black;
   text-decoration: none;
   display: inline-block;
 }
