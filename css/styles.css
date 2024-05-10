@@ -11,6 +11,7 @@ p {
   justify-content: center;
   
 }
+
 .hero-text {
   text-align: center;
   position: relative;
@@ -39,7 +40,14 @@ background-size: cover;
 height: 100%;
   color: black;
 }
-
+/* div{
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+} */
 li{
   background-color: #ffedcd;
   color: #781616;
@@ -166,7 +174,7 @@ width: 40%;
 
 }
 .robot-picture{
-width: 60%;
+width: 20%;
 }
 
 input[type=text], select, textarea {

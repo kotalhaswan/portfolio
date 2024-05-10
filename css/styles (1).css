@@ -1,0 +1,280 @@
+p {
+  background-color: #ffedcd;
+  color: #781616;
+  margin: 50px;
+  padding: 25px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #401b1b;
+  font-family: bold;
+  font-size:25px;
+  justify-content: center;
+  
+}
+
+.hero-text {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(124, 122, 122, 0.5), rgba(242, 189, 143, 0.5)), url("../img/catbanner.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+body{
+  margin: 15px;
+  background-color: rgb(215, 147, 113);
+  background-image: url("../img/backgroundimg.jpg");
+background-repeat: repeat-y;
+background-position: center;
+background-size: cover;
+height: 100%;
+  color: black;
+}
+/* div{
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  background-color: lightblue;
+} */
+li{
+  background-color: #ffedcd;
+  color: #781616;
+  margin: 19px;
+  padding: 10px;
+  font-family: bold;
+  font-size:25px;
+
+}
+img{
+  width: 50%;
+  height: 50%;
+}
+
+h1{
+  background-color: #F17962;
+  color: black;
+
+  width: 50%
+ 
+}
+
+h2{
+  background-color: #F17962;
+  color: white;
+}
+#c2{
+    font-family: bold;
+    font: size 50em;
+  color: white;
+}
+
+#c3{
+  font-family: bold;
+  font: size 50em;
+  color:white;
+}
+
+ 
+#c4{
+  font-family: bold;
+  font: size 50em;
+  color:white;
+}
+
+#c5{
+  font-family: bold;
+  font: size 50em;
+  color:white;
+}
+
+
+.topbar{
+background-color: #F17962;
+display: flex;
+position: sticky;
+ top:0;
+}
+
+.navbar {
+  display: flex;
+ justify-content: flex-end;
+ flex-direction: column;
+ 
+}
+.sticky {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}  
+
+footer{
+  background-color: #401b24;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}
+
+.navbar > a {
+  margin: 1%;
+  padding: 1%;
+  font-size: 18px;
+}
+
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: hotpink;
+}
+
+.cards{
+  display: flex;
+  gap:25px;
+  flex-wrap: wrap;
+  justify-content: relative;
+}
+
+.card {
+  width: 30vw;
+  margin: 0 auto;
+  border: 4px solid #F17962;
+  background-color: lightyellow;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 7px 10px 17px rgba(0, 0, 0, 0.2);
+ 
+}
+.name{
+color: white;
+}
+.profile-picture{
+border-style: solid;
+border-color: rgb(255, 255, 255);
+border-radius: 40%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+
+}
+.robot-picture{
+width: 60%;
+}
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid black;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+input[type=date], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid black;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+input[type=email], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid black;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+}
+
+/*#region Skill bar*/
+#prog {
+position: relative;
+}
+
+.skills {
+padding: 0;
+margin: 0;
+list-style: none;
+}
+
+.skill {
+margin-top: 5px;
+background-color: wheat;
+border-radius: 10px;
+color: white;
+}
+
+.skill-bg {
+position: relative;
+margin: 0;
+}
+
+.skill-bar {
+background-color: #2A1515;
+border-radius: 10px;
+padding: 4px 0;
+display: flex;
+justify-content: space-between;
+flex-wrap: nowrap;
+animation: progressBar 2s ease-in-out;
+}
+
+.skill-title {
+padding-left: 6px;
+}
+
+.skill-level {
+padding-right: 6px;
+}
+
+@keyframes progressBar {
+0% {
+  width: 30%;
+}
+
+100% {
+  width: 100%;
+}
+}
+
+.category-title {
+margin-bottom: 5px;
+}
+
+.container {
+color: #211b40;
+border-radius: 5px;
+padding: 20px;
+}
+@media (min-width:768px){
+.navbar{
+flex-direction: row;
+}
+
+.cards{
+width: 50%;
+}
+}
